@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+body {
+  margin: 0;
+  background-color: black;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+nav ul {
+  display: inline-block;
+}
+nav ul div {
+  background-color: #fff;
+  width: 120px;
+  height: 60px;
+  padding: 0;
+}
+nav ul div img {
+  width: 100%;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 700;
+  border-bottom: 3px solid rgba(255, 255, 255, 0);
+  transition-property: border-bottom;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in;
+}
+nav ul li a:hover {
+  border-bottom: 3px solid #fff;
+}
+nav ul:last-of-type {
+  padding-right: 8em;
+  padding-top: 1.7em;
+}
+nav ul:last-of-type li {
+  margin-left: 2em;
+}
+
+.hero-container {
+  padding-left: 4em;
+  padding-top: 2em;
+}
+.hero-container div {
+  width: 70%;
+  border-left: 8px solid #fff;
+  padding-left: 2em;
+}
+.hero-container div h1 {
+  color: #fff;
+  font-color: #fff;
+  font-size: 4em;
+  font-weight: 700;
+}
+
+.first-button {
+  font-size: 1.5em;
+  padding: 0.6em 1em;
+  background-color: #000;
+  color: #fff;
+  border: 4px solid #fff;
+  margin-right: 50px;
+}
+
+.second-button {
+  font-size: 1.5em;
+  padding: 0.6em 1em;
+  background-color: #000;
+  color: #fff;
+  border: 4px solid #fff;
+  margin-right: 50px;
+}
+
+.third-button {
+  font-size: 1.5em;
+  padding: 0.6em 1em;
+  background-color: #000;
+  color: #fff;
+  border: 4px solid #fff;
+  margin-right: 50px;
+}/*# sourceMappingURL=styles.css.map */

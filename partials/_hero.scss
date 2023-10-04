@@ -1,0 +1,22 @@
+.hero-container {
+    padding: {
+        left: 4em;
+        top: 2em;
+    }
+
+    div {
+        width: 70%;
+        border-left: 8px solid $white;
+        padding-left: 2em;
+
+        h1 {
+            color: #fff;
+
+            font: {
+                color: $white;
+                size: 4em;
+                weight: 700;
+            }
+        }
+    }
+}
